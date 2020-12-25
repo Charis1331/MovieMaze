@@ -1,12 +1,15 @@
-## MovieMaze
+<h1 align="center">MovieMaze</h1>
 
-Your one-way stop to browse and search the next movie you are going to watch.
-Browse among an infinite list of the most popular movies or search your whatever matches your mood.
-Add to favorites, see details like cast, director and more. Check it out now!
+<p align="center">
+MovieMaze is a demo app built on modern Android framework tech-stacks and MVVM architecture.
+<br>Its main purpose is to investigate the new Paging3 library and combine multiple data sources using Flow
+<br>Data are fetched via the TMDB API and stored locally in a database, enabling offline usage of the app.
+</p>
+</br>
 
-## Screenshots
-
-<img src="https://github.com/Charis1331/MovieMaze/blob/main/screenshots/s1.png" width="300"> <img src="https://github.com/Charis1331/MovieMaze/blob/main/screenshots/s2.png" width="300"> <img src="https://github.com/Charis1331/MovieMaze/blob/main/screenshots/s3.png" width="300"> <img src="https://github.com/Charis1331/MovieMaze/blob/main/screenshots/s4.png" width="300"> <img src="https://github.com/Charis1331/MovieMaze/blob/main/screenshots/s5.png" width="300">
+<p align="center">
+<img src="/media/preview.png"/>
+</p>
 
 ## Tech Stack
 
