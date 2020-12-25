@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    tools:showIn="@layout/fragment_movie_details">
+
+    <TextView
+        android:id="@+id/author_textView"
+        style="@style/MovieDetails.Context.Special"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Glen Kenny" />
+
+    <TextView
+        android:id="@+id/content_textView"
+        style="@style/MovieDetails.Context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit est, placerat et mauris sollicitudin, mollis tincidunt odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam blandit dictum enim, vel fringilla felis " />
+
+</LinearLayout>

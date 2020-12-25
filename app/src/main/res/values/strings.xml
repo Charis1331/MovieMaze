@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">Movie</string>
+    <string name="transition_name_prefix" translatable="false">transition_name_pref</string>
+
+    <!--Content description-->
+    <string name="content_desc_movie_title">Movie title</string>
+    <string name="content_desc_movie_poster">Movie poster</string>
+
+    <string name="no_results">No results 😓</string>
+    <string name="not_available">Not available</string>
+    <string name="no_network_connection">No internet connection</string>
+    <string name="generic_error">An error occurred. Error code: %1$d</string>
+
+    <!--Movies list-->
+    <string name="no_rating_count">No rating available</string>
+    <string name="search_movie_hint">Search MovieMaze</string>
+    <string name="added_to_favorites">Added to favorites</string>
+
+    <!--Movie details-->
+    <string name="description_CAPS">DESCRIPTION</string>
+    <string name="director_CAPS">DIRECTOR</string>
+    <string name="cast_CAPS">CAST</string>
+    <string name="similar_movies_CAPS">SIMILAR MOVIES</string>
+    <string name="reviews_CAPS">REVIEWS</string>
+    <string name="try_again">Try again</string>
+    <string name="something_went_wrong">Something is wrong with that movie :)</string>
+    <string name="no_details_found">Something went wrong and we couldn\'t find any more details on your movie :(. \n Check your internet connection and try again. </string>
+
+</resources>

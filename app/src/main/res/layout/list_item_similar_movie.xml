@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/small_padding">
+
+    <ImageView
+        android:contentDescription="@string/content_desc_movie_poster"
+        android:id="@+id/poster_imageView"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/movie_placeholder" />
+
+</FrameLayout>

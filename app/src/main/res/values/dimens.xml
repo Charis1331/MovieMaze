@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+
+    <dimen name="default_elevation">1dp</dimen>
+
+    <dimen name="rating_bar_height">20dp</dimen>
+    <dimen name="rating_bar_margin">14dp</dimen>
+
+    <dimen name="poster_height">200dp</dimen>
+
+    <!--Movie Details-->
+    <dimen name="detailsContentGoneMargin">36dp</dimen>
+    <dimen name="detailsProgressSize">20dp</dimen>
+</resources>

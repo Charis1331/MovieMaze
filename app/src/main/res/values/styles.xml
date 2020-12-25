@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.MaterialRatingBar.RatingBar.Indicator.Medium" parent="Widget.MaterialRatingBar.RatingBar.Indicator">
+        <item name="android:minHeight">@dimen/rating_bar_height</item>
+        <item name="android:maxHeight">@dimen/rating_bar_height</item>
+        <item name="android:layout_marginStart">@dimen/rating_bar_margin</item>
+        <item name="android:layout_marginBottom">@dimen/default_padding</item>
+    </style>
+
+    <style name="SearchMovieEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:elevation">@dimen/default_elevation</item>
+        <item name="android:padding">@dimen/default_padding</item>
+        <item name="android:drawableStart">@android:drawable/ic_menu_search</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:hint">@string/search_movie_hint</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="MoviePosterTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:layout_marginStart">@dimen/default_padding</item>
+        <item name="android:paddingTop">@dimen/default_padding</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="MovieNoRatingAvailableText" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:layout_marginStart">@dimen/default_padding</item>
+        <item name="android:layout_marginBottom">@dimen/default_padding</item>
+    </style>
+
+    <style name="MovieDetails" />
+
+    <style name="MovieDetails.Caption" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/colorCaption</item>
+        <item name="android:layout_marginTop">@dimen/default_padding</item>
+        <item name="layout_goneMarginTop">@dimen/detailsContentGoneMargin</item>
+    </style>
+
+    <style name="MovieDetails.Context" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/colorContext</item>
+        <item name="android:layout_marginTop">@dimen/small_padding</item>
+    </style>
+
+    <style name="MovieDetails.Context.Special">
+        <item name="android:textColor">@color/colorSpecialContext</item>
+    </style>
+
+    <style name="MovieDetails.Loading" parent="Widget.MaterialComponents.ProgressIndicator.Circular.Indeterminate">
+        <item name="android:layout_width">@dimen/detailsProgressSize</item>
+        <item name="android:layout_height">@dimen/detailsProgressSize</item>
+    </style>
+
+</resources>
