@@ -31,8 +31,8 @@ MovieMaze is a demo app built on modern Android framework tech-stacks and MVVM a
 
 ## MAD Score
 
-![Summary] (/mad_scorecard/summary.png)
-![Kotlin] (/mad_scorecard/kotlin.png)
+![Summary](/mad_scorecard/summary.png)
+![Kotlin](/mad_scorecard/kotlin.png)
 
 # License
 ```xml
