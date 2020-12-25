@@ -27,7 +27,7 @@ MovieMaze is a demo app built on modern Android framework tech-stacks and MVVM a
 * [Truth](https://truth.dev/) - assertion library for Tests
 * [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver) - to test the endpoint validity of each request
 * [Barista](https://github.com/AdevintaSpain/Barista) - a wrapper around Espresso, to make UI testing easier
-* [Gradle Kotlin DSL)[https://docs.gradle.org/current/userguide/kotlin_dsl.html] - get all the goodies of Kotlin in Gradle scripts
+* [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html) - get all the goodies of Kotlin in Gradle scripts
 
 ## MAD Score
 
